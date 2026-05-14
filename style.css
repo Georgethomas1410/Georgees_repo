@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0f0f;
+}
+
+.item {
+  background-color: #6366f1;
+  color: #fff;
+  padding: 1em;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: 10px solid #4338ca;
+  border-radius: 8px;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  width: 90%;
+  max-width: 800px;
+}
+/* Mobile */
+@media (max-width: 480px) {
+  /* styles for small phones */
+}
+
+@media (max-width: 768px) {
+  /* styles for phones - large phones */
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  /* styles for tablets */
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  /* styles for desktops */
+}
+
+@media (min-width: 1280px) {
+  /* styles for large desktops */
+}
+
+/* rest of css code here */
